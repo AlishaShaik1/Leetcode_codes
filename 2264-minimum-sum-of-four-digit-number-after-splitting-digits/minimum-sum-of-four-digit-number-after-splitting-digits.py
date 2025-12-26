@@ -1,6 +1,7 @@
 class Solution:
     def minimumSum(self, num: int) -> int:
-        nums=sorted(map(int,str(num)))
-        num1=nums[0]*10+nums[2]
-        num2=nums[1]*10+nums[3]
-        return num1+num2
+        s1=str(num)
+        s=sorted(s1)
+        num1=s[0]+s[2]
+        num2=s[1]+s[3]
+        return(int(num1)+int(num2))
