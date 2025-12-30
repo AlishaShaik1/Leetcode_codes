@@ -15,7 +15,7 @@
 <strong>Explanation:</strong> The only common string is &quot;Shogun&quot;.
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">Example 2 :</strong></p>
 
 <pre>
 <strong>Input:</strong> list1 = [&quot;Shogun&quot;,&quot;Tapioca Express&quot;,&quot;Burger King&quot;,&quot;KFC&quot;], list2 = [&quot;KFC&quot;,&quot;Shogun&quot;,&quot;Burger King&quot;]
