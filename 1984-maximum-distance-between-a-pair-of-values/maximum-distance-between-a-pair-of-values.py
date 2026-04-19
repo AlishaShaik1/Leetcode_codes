@@ -5,7 +5,7 @@ class Solution:
 
         while i<len(nums1) and j<len(nums2):
             if nums1[i]<=nums2[j]:
-                ans=max(ans, j - i)
+                ans=max(ans,j-i)
                 j+=1
             else:
                 i+=1
