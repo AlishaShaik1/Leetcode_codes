@@ -1,13 +1,13 @@
 class Solution:
     def minimumCost(self, cost: List[int]) -> int:
         sum=0
-        cost.sort(reverse=True)
-        n=len(cost)
-        for i in range(n):
-            if i%3==2:
-                continue
-            sum=sum+cost[i]
-        return sum
-            
+        cost.sort()
+        n=len(cost)-1
 
-        
+        while n>=0:
+            sum+=cost[n]
+            if n-1>=0:
+                sum+=cost[n-1]
+
+            n-=3
+        return sum
