@@ -5,9 +5,9 @@ class Solution:
         count=0
         costs.sort()
         for cost in costs:
-            if coins >= cost:
-                coins -= cost
-                count += 1
+            if coins>=cost:
+                coins-=cost
+                count+=1
             else:
                 break
 
