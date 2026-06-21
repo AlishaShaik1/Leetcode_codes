@@ -4,8 +4,11 @@ class Solution:
         x=0
         count=0
         costs.sort()
-        while i<len(costs) and x+costs[i]<=coins:
-            x+=costs[i]
-            count+=1
-            i+=1
+        for cost in costs:
+            if coins >= cost:
+                coins -= cost
+                count += 1
+            else:
+                break
+
         return count
