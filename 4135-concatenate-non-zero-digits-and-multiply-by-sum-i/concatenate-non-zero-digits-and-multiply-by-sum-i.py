@@ -7,9 +7,7 @@ class Solution:
             if ch!="0":
                 result+=ch
                 x+=int(ch)
-
         if result == "":
             return 0
-            
         return int(result) *x
 
