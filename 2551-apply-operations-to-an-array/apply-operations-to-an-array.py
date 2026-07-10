@@ -1,6 +1,5 @@
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
-        result=[]
         x=[]
         y=[]
         for i in range(len(nums)-1):
