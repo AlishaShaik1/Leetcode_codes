@@ -3,7 +3,6 @@ class Solution:
         s=len(num)
         half=s//2
         num1,num2=num[:half],num[half:]
-
         sum1=sum2=q1=q2=0
         for i in range(half):
             char1=num1[i]
@@ -13,7 +12,6 @@ class Solution:
                 q1+=1
             else:
                 sum1+=int(char1)
-
             if char2=='?':
                 q2+=1
             else:
